@@ -21,7 +21,7 @@ def load_events():
 @app.route('/')
 def start():
     load_events()
-    print(events)
+    #print(events)
     return render_template('cal.html',events=events)
 
 if __name__ == '__main__':
