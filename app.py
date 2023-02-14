@@ -26,7 +26,7 @@ if __name__ == '__main__':
     
     load_events()
     print(events)
-    app.run(debug=True, port=5000)
+    app.run()
 
     # starttime = time.time()
     # while True:
