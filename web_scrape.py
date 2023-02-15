@@ -108,11 +108,11 @@ def run():
 		# print(Countdown,len(Countdown))
 		if len(anime_title) > 0:
 			#Save to pickle
-			f = open('data/anime_title.pkl', 'wb')
+			f = open('data/anime_title.pickle', 'wb')
 			pickle.dump(anime_title, f)
-			f = open('data/episode.pkl', 'wb')
+			f = open('data/episode.pickle', 'wb')
 			pickle.dump(Episode, f)
-			f = open('data/countdown.pkl', 'wb')
+			f = open('data/countdown.pickle', 'wb')
 			pickle.dump(Countdown, f)
 			#return anime_title, Episode, Countdown
 
