@@ -11,7 +11,7 @@ def load_events():
     global time_now 
     global events
     time_now = time.ctime()
-    print(f'{time_now}')
+    #print(f'{time_now}')
     events.clear()
     web_scrape.run()
     loaded_anime_title = read_pickle.LoadLists('data/anime_title.pickle')
