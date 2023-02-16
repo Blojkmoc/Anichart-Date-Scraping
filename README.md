@@ -4,7 +4,7 @@ useful information about the seasonal anime that are airing currently
 
 This repo thus uses the following Python libraries to help the cause:
 - BeautifulSoup4
-- PLaywright
+- Playwright
 - Flask
 
 This app is only applicable on the personal computer and for some reason, it does not work when I try to host it on an Azure Web App.
