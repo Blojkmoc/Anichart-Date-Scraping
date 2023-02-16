@@ -10,3 +10,6 @@ This repo thus uses the following Python libraries to help the cause:
 This app is only applicable on the personal computer and for some reason, it does not work when I try to host it on an Azure Web App.
 
 It uses Flask to host the website as it scrapes for useful information and these data is then shown on a calendar using fullCalendar.io
+
+This iteration does not allow for update and the better iteration is in the following repo:
+https://github.com/Blojkmoc/Anichart-Seasonal-Anime-Calendar/
